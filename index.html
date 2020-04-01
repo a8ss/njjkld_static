@@ -677,7 +677,7 @@
             {top: teamSection.offset().top, height: teamSection.height(), btn: $('#menu-item-77')},
             {top: testSection.offset().top, height: testSection.height(), btn: $('#menu-item-78')},
             {top: contactSection.offset().top, height: contactSection.height(), btn: $('#menu-item-79')},
-            {top: aboutSection.offset().top, height: aboutSection.height(), btn: $('#menu-item-80')},
+            {top: aboutSection.offset().top, height: aboutSection.height() + $('#about').height(), btn: $('#menu-item-80')},
         ];
         position.forEach(function (item, i) {
             item.bottom = item.top + item.height
